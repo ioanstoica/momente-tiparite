@@ -10,7 +10,7 @@ termeni.html            Termeni și condiții
 confidentialitate.html  Politica de confidențialitate (GDPR)
 css/style.css           stilurile (culorile sunt în :root, la început)
 js/main.js              prețuri, WhatsApp, configurator, ninsoare
-images/                 logo, favicon și pozele (foto-*.webp/jpg sunt poze temporare, de referință)
+images/                 logo, favicon și pozele (foto-*.webp/jpg sunt poze temporare, de referință; foto-kit.jpg e foto-cuplu.webp trecută în gri, ca să imite rășina nepictată)
 images/archive/         ilustrațiile SVG vechi (hero-glob, galerie-*), păstrate pentru revenire
 CNAME                   domeniul momentetiparite.ro (pentru GitHub Pages)
 .nojekyll               spune GitHub Pages să servească fișierele exact cum sunt
