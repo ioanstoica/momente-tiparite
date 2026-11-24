@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Figurină color cu un cuplu">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#EEE4D3"/>
+    </radialGradient>
+    <path id="spark" d="M0-9 1.8-1.8 9 0 1.8 1.8 0 9-1.8 1.8-9 0-1.8-1.8Z"/>
+    <g id="body">
+      <rect x="-21" y="-76" width="19" height="72" rx="8" style="fill:var(--bottom)"/>
+      <rect x="2" y="-76" width="19" height="72" rx="8" style="fill:var(--bottom)"/>
+      <ellipse cx="-12" cy="-5" rx="13" ry="6" style="fill:var(--shoe)"/>
+      <ellipse cx="12" cy="-5" rx="13" ry="6" style="fill:var(--shoe)"/>
+      <g style="fill:var(--top)">
+        <rect x="-44" y="-140" width="16" height="66" rx="8" transform="rotate(10 -36 -140)"/>
+        <rect x="28" y="-140" width="16" height="66" rx="8" transform="rotate(-10 36 -140)"/>
+        <path d="M-32-68C-36-110-32-138-16-146H16C32-138 36-110 32-68Z"/>
+      </g>
+      <circle cx="-47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <circle cx="47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <rect x="-7" y="-160" width="14" height="18" rx="4" style="fill:var(--skin)"/>
+    </g>
+    <g id="dress">
+      <ellipse cx="-12" cy="-5" rx="11" ry="5" style="fill:var(--shoe)"/>
+      <ellipse cx="12" cy="-5" rx="11" ry="5" style="fill:var(--shoe)"/>
+      <g style="fill:var(--top)">
+        <rect x="-44" y="-140" width="16" height="66" rx="8" transform="rotate(10 -36 -140)"/>
+        <rect x="28" y="-140" width="16" height="66" rx="8" transform="rotate(-10 36 -140)"/>
+        <path d="M-16-146H16C30-140 33-112 28-92L46-10Q0 2-46-10L-28-92C-33-112-30-140-16-146Z"/>
+      </g>
+      <circle cx="-47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <circle cx="47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <rect x="-7" y="-160" width="14" height="18" rx="4" style="fill:var(--skin)"/>
+    </g>
+    <path id="hairBack" d="M-37-184C-38-214-16-224 2-223C22-222 39-210 37-184L39-136Q30-126 18-134L-18-134Q-30-126-39-136Z" style="fill:var(--hair)"/>
+    <g id="head">
+      <circle cx="0" cy="-184" r="32" style="fill:var(--skin)"/>
+      <circle cx="-11" cy="-182" r="3.2" style="fill:var(--eye,#2B211C)"/>
+      <circle cx="11" cy="-182" r="3.2" style="fill:var(--eye,#2B211C)"/>
+      <circle cx="-20" cy="-171" r="5.5" opacity=".5" style="fill:var(--cheek,#E8998D)"/>
+      <circle cx="20" cy="-171" r="5.5" opacity=".5" style="fill:var(--cheek,#E8998D)"/>
+      <path d="M-8-169Q0-162 8-169" fill="none" stroke-width="2.6" stroke-linecap="round" style="stroke:var(--eye,#2B211C)"/>
+    </g>
+    <path id="hair" d="M-34-186C-36-212-16-222 2-221C22-220 37-206 34-186C30-197 20-203 8-204C2-196-12-194-22-197C-27-194-31-191-34-186Z" style="fill:var(--hair)"/>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <g fill="#B8924A">
+    <use href="#spark" x="64" y="92" opacity=".55"/>
+    <use href="#spark" x="338" y="70" opacity=".4"/>
+    <use href="#spark" x="352" y="210" opacity=".3" transform="scale(1)"/>
+    <use href="#spark" x="46" y="250" opacity=".3"/>
+  </g>
+
+  <path d="M60 420v28a140 22 0 0 0 280 0v-28z" fill="#163026"/>
+  <path d="M60 432a140 22 0 0 0 280 0" fill="none" stroke="#B8924A" stroke-width="2"/>
+  <ellipse cx="200" cy="420" rx="140" ry="22" fill="#24473A"/>
+
+  <g transform="translate(146 424) scale(1.2)" style="--skin:#F1C8A6;--hair:#4A2E20;--top:#2E4A6B;--bottom:#34343D;--shoe:#23232A">
+    <use href="#body"/><use href="#head"/><use href="#hair"/>
+  </g>
+  <g transform="translate(256 424) scale(1.12)" style="--skin:#F5D2B5;--hair:#8A4B2A;--top:#9B2F3F;--bottom:#2E2E38;--shoe:#5A2028">
+    <use href="#dress"/><use href="#hairBack"/><use href="#head"/><use href="#hair"/>
+  </g>
+</svg>

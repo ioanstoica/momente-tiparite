@@ -1,272 +1,541 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ro">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Momente Imprimate — Sticle albe pentru sublimare</title>
-<meta name="description" content="Sticle sport din aluminiu, suprafață albă lucioasă, gata pentru personalizare prin sublimare sau print UV. 13 lei/bucată, transport gratuit peste 500 lei.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Momente Tipărite — Figurine 3D personalizate după fotografie</title>
+  <meta name="description" content="Transformăm fotografia ta într-o figurină 3D unică. Alege Kitul Atelier pe care îl pictezi tu sau Figurina Color gata de oferit. Livrare în 7–10 zile în toată România.">
+  <meta name="theme-color" content="#1F3D31">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://momentetiparite.ro/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Momente Tipărite — Figurine 3D personalizate">
+  <meta property="og:description" content="Din fotografia ta, o figurină 3D unică. Cadoul de Crăciun care rămâne.">
+  <meta property="og:url" content="https://momentetiparite.ro/">
+  <meta property="og:locale" content="ro_RO">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <a class="skip-link" href="#continut">Sari la conținut</a>
 
-<header class="navbar" id="navbar">
-  <div class="container navbar__inner">
-    <a href="#top" class="logo">Momente<span>Imprimate</span></a>
-    <nav class="nav-links" id="navLinks">
-      <a href="#produs">Produs</a>
-      <a href="#specificatii">Specificații</a>
-      <a href="#personalizare">Personalizare</a>
-      <a href="#oferta">Preț &amp; comandă</a>
-      <a href="#contact">Contact</a>
-    </nav>
-    <a class="btn btn--whatsapp btn--nav" id="waNav" target="_blank" rel="noopener">
-      <svg viewBox="0 0 32 32" class="ico-wa" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.6 6.1 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6 1.1 1.2-4.4-.3-.5C5.4 17.7 5 16.4 5 15c0-6 4.9-11 11-11s11 5 11 11-4.9 10.8-11 10.8zm5.9-8.2c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
-      Mesaj pe WhatsApp
-    </a>
-    <button class="nav-toggle" id="navToggle" aria-label="Deschide meniul">
-      <span></span><span></span><span></span>
-    </button>
+  <div class="xmas-bar" id="xmasBar">
+    <p><span class="xmas-bar__star" aria-hidden="true">✦</span> Comenzi de Crăciun: comandă până pe <strong data-config="christmasDeadline">8 decembrie</strong> ca figurina să ajungă la timp sub brad.</p>
+    <button class="xmas-bar__close" type="button" aria-label="Închide anunțul">&times;</button>
   </div>
-</header>
 
-<main id="top">
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero__inner">
-      <div class="hero__text" data-reveal>
-        <span class="eyebrow">Ofertă specială</span>
-        <h1>Sticle albe pentru <span class="accent">sublimare.</span></h1>
-        <p class="hero__lead">
-          Sticle sport din aluminiu, suprafață albă lucioasă, gata pentru personalizare
-          prin sublimare sau print UV — ideale pentru școli, sport și cadouri
-          personalizate.
-        </p>
-        <div class="hero__badges">
-          <div class="badge">
-            <strong>Alb</strong>
-            <span>singura culoare, ideală pentru sublimare</span>
-          </div>
-          <div class="badge">
-            <strong>13 lei</strong>
-            <span>preț fix / bucată</span>
-          </div>
-          <div class="badge">
-            <strong>Gratuit</strong>
-            <span>transport la comenzi peste 500 lei</span>
-          </div>
-        </div>
-        <div class="hero__actions">
-          <a href="#" class="btn btn--whatsapp btn--lg wa-link" target="_blank" rel="noopener">
-            <svg viewBox="0 0 32 32" class="ico-wa" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.6 6.1 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6 1.1 1.2-4.4-.3-.5C5.4 17.7 5 16.4 5 15c0-6 4.9-11 11-11s11 5 11 11-4.9 10.8-11 10.8zm5.9-8.2c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
-            Comandă pe WhatsApp
-          </a>
-          <a href="#oferta" class="btn btn--ghost">Vezi prețul și condițiile</a>
-        </div>
-      </div>
-      <div class="hero__media" data-reveal>
-        <div class="hero__glow"></div>
-        <img src="assets/sticla-alba-simpla.jpeg" alt="Bidon aluminiu alb sublimabil" class="hero__img">
-      </div>
-    </div>
-  </section>
-
-  <!-- DESPRE PRODUS -->
-  <section id="produs" class="section">
-    <div class="container">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow eyebrow--dark">Despre produs</span>
-        <h2>Gata pentru personalizarea ta prin sublimare</h2>
-        <p class="section-lead">
-          Sticlă sport fabricată din metal, rezistentă și ușoară. Suprafața albă lucioasă
-          este special concepută pentru personalizare prin sublimare sau print UV, oferind
-          culori intense și designuri durabile. Este prevăzută cu cataramă și inel tip
-          breloc, pentru prindere rapidă de ghiozdan, geantă sau bicicletă. Fiecare bidon
-          este ambalat individual, pentru o protecție sigură în timpul transportului.
-        </p>
-      </div>
-
-      <div class="feature-grid">
-        <div class="feature-card" data-reveal>
-          <div class="feature-icon">⚙️</div>
-          <h3>Material</h3>
-          <p>Aluminiu, ușor și rezistent — potrivit pentru uz zilnic.</p>
-        </div>
-        <div class="feature-card" data-reveal>
-          <div class="feature-icon">✨</div>
-          <h3>Suprafață</h3>
-          <p>Alb lucios, ideală pentru sublimare și print UV.</p>
-        </div>
-        <div class="feature-card" data-reveal>
-          <div class="feature-icon">🔗</div>
-          <h3>Accesorii</h3>
-          <p>Cataramă + inel tip breloc, pentru prindere rapidă.</p>
-        </div>
-        <div class="feature-card" data-reveal>
-          <div class="feature-icon">📦</div>
-          <h3>Ambalare</h3>
-          <p>Individual, în folie și cutie, pentru transport sigur.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- SPECIFICATII -->
-  <section id="specificatii" class="section section--dark">
-    <div class="container">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow">Specificații produs</span>
-        <h2>Toate detaliile tehnice, dintr-o privire</h2>
-      </div>
-
-      <div class="spec-wrap" data-reveal>
-        <table class="spec-table">
-          <tbody>
-            <tr><td>Culoare</td><td><strong>Alb</strong></td></tr>
-            <tr><td>Material</td><td><strong>Metal (aluminiu)</strong></td></tr>
-            <tr><td>Volum</td><td><strong>0,5 L</strong></td></tr>
-            <tr><td>Accesorii</td><td><strong>Cataramă + inel breloc</strong></td></tr>
-            <tr><td>Ambalare</td><td><strong>Individual</strong></td></tr>
-            <tr><td>Compatibilitate</td><td><strong>Presă normală de căni (sublimare / UV)</strong></td></tr>
-          </tbody>
-        </table>
-
-        <div class="usecases">
-          <h3>Recomandat pentru</h3>
-          <div class="usecase-list">
-            <div class="usecase">
-              <strong>Educație</strong>
-              <p>Școli, grădinițe și licee — material promoțional sau cadou util pentru elevi.</p>
-            </div>
-            <div class="usecase">
-              <strong>Sport &amp; activități</strong>
-              <p>Facultăți, maratoane și concursuri de bicicletă, activități sportive.</p>
-            </div>
-            <div class="usecase">
-              <strong>Cadouri personalizate</strong>
-              <p>Idei de cadou pentru el, ea, copii sau părinți, cu design la alegere.</p>
-            </div>
-          </div>
-          <div class="tag-list">
-            <span class="tag">Școli</span>
-            <span class="tag">Grădinițe</span>
-            <span class="tag">Liceu</span>
-            <span class="tag">Sport</span>
-            <span class="tag">Cadou pentru el</span>
-            <span class="tag">Cadou pentru tata</span>
-            <span class="tag">Cadou pentru mama</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- PERSONALIZARE -->
-  <section id="personalizare" class="section">
-    <div class="container">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow eyebrow--dark">Exemple de personalizare</span>
-        <h2>Suprafața albă, pânza ta de creație</h2>
-        <p class="section-lead">
-          Suprafața albă permite imprimarea prin sublimare a oricărui design, fotografie
-          sau logo, cu culori vii și rezistență îndelungată. Produsul este livrat alb,
-          nepersonalizat — imaginile de mai jos sunt exemple de personalizare posibilă,
-          neincluse în ofertă.
-        </p>
-      </div>
-
-      <div class="gallery" data-reveal>
-        <figure class="gallery__item gallery__item--video">
-          <video src="assets/video-sticla-alba-simpla.mp4" autoplay muted loop playsinline></video>
-          <figcaption>Produs livrat — alb, nepersonalizat</figcaption>
-        </figure>
-        <figure class="gallery__item">
-          <img src="assets/sticla-model-geometric-colorat.jpeg" alt="Exemplu personalizare — model geometric colorat" loading="lazy">
-          <figcaption>Exemplu — design geometric prin sublimare</figcaption>
-        </figure>
-        <figure class="gallery__item">
-          <img src="assets/exemple-sticle-personalizate-foto.jpeg" alt="Exemple de bidoane personalizate cu fotografii" loading="lazy">
-          <figcaption>Exemplu — personalizare cu fotografii</figcaption>
-        </figure>
-        <figure class="gallery__item">
-          <img src="assets/sticla-alba-capac-detasabil.jpeg" alt="Bidon aluminiu, detaliu capac detașabil" loading="lazy">
-          <figcaption>Detaliu — capac detașabil cu breloc</figcaption>
-        </figure>
-      </div>
-    </div>
-  </section>
-
-  <!-- PRET & COMANDA -->
-  <section id="oferta" class="section section--dark">
-    <div class="container">
-      <div class="section-head" data-reveal>
-        <span class="eyebrow">Preț &amp; comandă</span>
-        <h2>Preț simplu, fără complicații</h2>
-        <p class="section-lead section-lead--light">
-          Un singur preț pentru sticla albă, indiferent de cantitatea comandată —
-          fără costuri ascunse.
-        </p>
-      </div>
-
-      <div class="price-single" data-reveal>
-        <div class="price-single__value">
-          13 <span>lei / bucată</span>
-        </div>
-        <p class="price-single__note">Preț final, fără costuri ascunse.</p>
-        <div class="price-single__shipping">
-          <strong>Transport gratuit</strong>
-          <span>la comenzi peste 500 lei</span>
-        </div>
-        <a href="#" class="btn btn--whatsapp btn--lg wa-link" target="_blank" rel="noopener">
-          <svg viewBox="0 0 32 32" class="ico-wa" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.6 6.1 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6 1.1 1.2-4.4-.3-.5C5.4 17.7 5 16.4 5 15c0-6 4.9-11 11-11s11 5 11 11-4.9 10.8-11 10.8zm5.9-8.2c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
-          Comandă pe WhatsApp
-        </a>
-      </div>
-
-      <ul class="conditions" data-reveal>
-        <li>Produs livrat alb, nepersonalizat</li>
-        <li>Ridicare din Mioveni sau livrare la cerere (cost separat, în afara pragului de 500 lei)</li>
-        <li>Plată la comandă, cu factură</li>
-        <li>Stoc disponibil acum — confirmare disponibilitate la comandă</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- CONTACT / CTA FINAL -->
-  <section id="contact" class="section cta-final">
-    <div class="container cta-final__inner" data-reveal>
-      <h2>Interesat de o comandă?</h2>
-      <p>Răspundem în aceeași zi lucrătoare.</p>
-      <a href="#" class="btn btn--whatsapp btn--lg wa-link" target="_blank" rel="noopener">
-        <svg viewBox="0 0 32 32" class="ico-wa" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.6 6.1 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6 1.1 1.2-4.4-.3-.5C5.4 17.7 5 16.4 5 15c0-6 4.9-11 11-11s11 5 11 11-4.9 10.8-11 10.8zm5.9-8.2c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
-        Mesaj pe WhatsApp
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Momente Tipărite – pagina principală">
+        <img src="images/logo-mark.svg" alt="" width="42" height="42">
+        <span class="brand__text">
+          <span class="brand__name">Momente Tipărite</span>
+          <span class="brand__tag">Figurine 3D personalizate</span>
+        </span>
       </a>
-      <div class="contact-alt">
-        <a href="tel:+40726610872">📞 0726 610 872</a>
-        <a href="mailto:momente.tiparite@gmail.com">✉️ momente.tiparite@gmail.com</a>
-        <span>📍 Mioveni, jud. Argeș</span>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="siteNav">
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="sr-only">Meniu</span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="Navigare principală">
+        <a href="#cum-functioneaza">Cum funcționează</a>
+        <a href="#oferte">Oferte</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#intrebari">Întrebări</a>
+        <a href="#contact">Contact</a>
+        <a class="btn btn--gold btn--small js-render" href="https://wa.me/40740123849">Cere randarea 3D</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="continut">
+
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <canvas class="snow" id="snow" aria-hidden="true"></canvas>
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Cadoul de Crăciun care rămâne</p>
+          <h1>Momentul tău,<br><em>tipărit 3D</em></h1>
+          <p class="lead">Ne trimiți o fotografie, iar noi o transformăm într-o figurină unică: pe tine, pe cei dragi sau pe prietenul tău blănos. O amintire pe care o poți ține în palmă.</p>
+          <div class="hero-actions">
+            <a class="btn btn--wa js-render" href="https://wa.me/40740123849">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>
+              Cere randarea 3D gratuită
+            </a>
+            <a class="btn btn--ghost" href="#oferte">Vezi ofertele</a>
+          </div>
+          <p class="hero-hint"><strong>Gratuit și fără obligații.</strong> Trimite-ne o poză pe WhatsApp și îți arătăm cum ar arăta figurina ta, înainte să decizi.</p>
+          <ul class="hero-trust">
+            <li><strong>7–10 zile</strong><span>livrare</span></li>
+            <li><strong>Randare 3D</strong><span>gratuită, înainte să comanzi</span></li>
+            <li><strong>Toată țara</strong><span>livrare prin curier</span></li>
+          </ul>
+        </div>
+        <div class="hero-art">
+          <div class="hero-art__glow" aria-hidden="true"></div>
+          <img src="images/hero-glob.svg" alt="Glob de zăpadă cu figurina 3D a unui cuplu lângă un brad" width="520" height="620">
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CUM FUNCTIONEAZA ============ -->
+    <section class="section" id="cum-functioneaza">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Cum funcționează</p>
+          <h2>De la o fotografie la o amintire, în patru pași</h2>
+          <div class="ornament" aria-hidden="true"><span></span>✦<span></span></div>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">I</span>
+            <h3>Trimiți fotografia</h3>
+            <p>Ne scrii pe WhatsApp și ne trimiți o poză clară, cu fața bine luminată.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">II</span>
+            <h3>Primești randarea 3D</h3>
+            <p>Gratuit și fără obligații: îți arătăm cum ar arăta figurina ta, ca să-ți faci o idee înainte să decizi.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">III</span>
+            <h3>Alegi și o tipărim</h3>
+            <p>Alegi Kitul Atelier sau Figurina Color, iar noi o tipărim cu grijă și o ambalăm ca pe un cadou.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">IV</span>
+            <h3>Ajunge la tine</h3>
+            <p>În 7–10 zile o primești acasă, prin curier, oriunde în România.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ OFERTE ============ -->
+    <section class="section section--tint" id="oferte">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Ofertele noastre</p>
+          <h2>Alege cum vrei să prindă viață</h2>
+          <p class="section-sub">Două variante, același suflet. Pictezi tu figurina sau o primești gata colorată.</p>
+        </header>
+
+        <div class="offers">
+          <article class="offer">
+            <div class="offer__media">
+              <img src="images/galerie-kit.svg" alt="Kit Atelier: figurină albă, vopsele și pensulă" width="400" height="500" loading="lazy">
+            </div>
+            <div class="offer__body">
+              <p class="offer__kicker">Pentru suflete creative</p>
+              <h3 class="offer__title">Kit Atelier</h3>
+              <p class="offer__desc">Figurina ta, tipărită 3D într-o nuanță deschisă, plus tot ce îți trebuie ca s-o pictezi. O seară frumoasă în doi sau cu copiii.</p>
+              <ul class="checklist">
+                <li>Figurină 3D după fotografia ta, gata de pictat</li>
+                <li>Set de vopsele acrilice și pensule fine</li>
+                <li>Ghid de pictură pas cu pas</li>
+                <li>Înălțime 15 cm, stil chibi</li>
+                <li>Ambalaj cadou</li>
+              </ul>
+              <div class="offer__foot">
+                <p class="price"><span class="price__value" data-price="kit">149</span> <span class="price__cur">lei</span></p>
+                <p class="price__note">pentru 1 persoană · +<span data-extra="kit">50</span> lei pentru fiecare persoană sau animăluț în plus</p>
+                <a class="btn btn--outline btn--block" href="#comanda" data-choose="kit">Aleg Kitul Atelier</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="offer offer--featured">
+            <span class="offer__badge">Cea mai aleasă</span>
+            <div class="offer__media">
+              <img src="images/galerie-cuplu.svg" alt="Figurina Color: un cuplu tipărit 3D în culori" width="400" height="500" loading="lazy">
+            </div>
+            <div class="offer__body">
+              <p class="offer__kicker">Gata de oferit</p>
+              <h3 class="offer__title">Figurina Color</h3>
+              <p class="offer__desc">Figurina este tipărită direct în culori, după fotografia ta. Scoți cutia din ambalaj și o pui sub brad.</p>
+              <ul class="checklist">
+                <li>Figurină 3D tipărită multicolor</li>
+                <li>Culori potrivite după fotografia ta</li>
+                <li>Previzualizare 3D înainte de print</li>
+                <li>Înălțime 15 cm, stil chibi</li>
+                <li>Ambalaj cadou</li>
+              </ul>
+              <div class="offer__foot">
+                <p class="price"><span class="price__value" data-price="color">249</span> <span class="price__cur">lei</span></p>
+                <p class="price__note">pentru 1 persoană · +<span data-extra="color">90</span> lei pentru fiecare persoană sau animăluț în plus</p>
+                <a class="btn btn--gold btn--block" href="#comanda" data-choose="color">Aleg Figurina Color</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- SPECIFICATII TEHNICE: detaliile complete sunt in "Specificatii tehnice.md" -->
+        <div class="specs" id="specificatii">
+          <h3 class="specs__title">Specificații tehnice</h3>
+          <div class="specs__scroll">
+            <table class="specs__table">
+              <thead>
+                <tr>
+                  <th scope="col"><span class="sr-only">Caracteristică</span></th>
+                  <th scope="col">Kit Atelier</th>
+                  <th scope="col">Figurina Color</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Înălțime</th>
+                  <td colspan="2">15 cm, de la bază până în vârful capului</td>
+                </tr>
+                <tr>
+                  <th scope="row">Stil</th>
+                  <td colspan="2">Chibi: cap mare și expresiv, cu trăsăturile tale</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tehnologie</th>
+                  <td>Tipărire 3D în rășină</td>
+                  <td>Tipărire 3D multicoloră (FDM)</td>
+                </tr>
+                <tr>
+                  <th scope="row">Material</th>
+                  <td>Rășină gri rezistentă</td>
+                  <td>PLA mat, plastic din surse vegetale</td>
+                </tr>
+                <tr>
+                  <th scope="row">Finisaj</th>
+                  <td>Șlefuită și grunduită, gata de pictat</td>
+                  <td>Colorată direct la tipărire, până la 6 culori</td>
+                </tr>
+                <tr>
+                  <th scope="row">Detaliu</th>
+                  <td>Straturi de 0,05 mm, practic invizibile</td>
+                  <td>Straturi de 0,08–0,12 mm, finisaj mat</td>
+                </tr>
+                <tr>
+                  <th scope="row">Bază</th>
+                  <td colspan="2">Integrată, cu logo-ul Momente Tipărite gravat dedesubt</td>
+                </tr>
+                <tr>
+                  <th scope="row">În cutie</th>
+                  <td>Figurina, 10–12 vopsele acrilice, 3 pensule, paletă, ghid de pictură</td>
+                  <td>Figurina, în ambalaj cadou</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="specs__note">Figurinele sunt decorative și nu sunt jucării pentru copii sub 3 ani: au piese mici care se pot rupe.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ COMANDA ============ -->
+    <section class="order" id="comanda">
+      <div class="container order-inner">
+        <div class="order-intro">
+          <p class="eyebrow eyebrow--light">Comandă</p>
+          <h2>Configurează figurina și scrie-ne pe WhatsApp</h2>
+          <p>Alegi varianta și ne spui câte persoane apar în poză. Mesajul se completează automat, iar fotografia ne-o trimiți direct în conversație.</p>
+          <ul class="order-points">
+            <li>Vorbești direct cu noi, nu cu un robot</li>
+            <li>Nu plătești nimic până nu confirmăm detaliile</li>
+            <li>Vezi modelul 3D înainte de tipărire</li>
+          </ul>
+        </div>
+
+        <form class="order-card" id="orderForm" novalidate>
+          <fieldset class="field">
+            <legend class="field__label">1. Alege varianta</legend>
+            <div class="choices">
+              <label class="choice">
+                <input type="radio" name="offer" value="kit">
+                <span class="choice__box">
+                  <span class="choice__title">Kit Atelier</span>
+                  <span class="choice__meta">figurină + set de pictură</span>
+                  <span class="choice__price"><span data-price="kit">149</span> lei</span>
+                </span>
+              </label>
+              <label class="choice">
+                <input type="radio" name="offer" value="color" checked>
+                <span class="choice__box">
+                  <span class="choice__title">Figurina Color</span>
+                  <span class="choice__meta">tipărită multicolor</span>
+                  <span class="choice__price"><span data-price="color">249</span> lei</span>
+                </span>
+              </label>
+            </div>
+          </fieldset>
+
+          <div class="field field--row">
+            <span class="field__label" id="personsLabel">2. Câte persoane sau animăluțe?</span>
+            <div class="stepper" role="group" aria-labelledby="personsLabel">
+              <button type="button" class="stepper__btn" data-step="-1" aria-label="Mai puține">−</button>
+              <output class="stepper__value" id="persons" aria-live="polite">1</output>
+              <button type="button" class="stepper__btn" data-step="1" aria-label="Mai multe">+</button>
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="occasion">3. Pentru ce ocazie?</label>
+            <select id="occasion" class="input">
+              <option>Crăciun</option>
+              <option>Aniversare</option>
+              <option>Zi de naștere</option>
+              <option>Nuntă</option>
+              <option>Botez</option>
+              <option>Fără o ocazie anume</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label class="field__label" for="details">4. Detalii <span class="optional">(opțional)</span></label>
+            <textarea id="details" class="input" rows="3" maxlength="500" placeholder="Ex.: ce haine să poarte figurina, data până la care o vrei…"></textarea>
+          </div>
+
+          <div class="order-summary">
+            <div>
+              <span class="order-summary__label">Preț estimat</span>
+              <span class="order-summary__total"><span id="total">249</span> lei</span>
+              <span class="order-summary__note">+ transport · prețul final îl confirmăm pe WhatsApp</span>
+            </div>
+            <button type="submit" class="btn btn--wa">
+              <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.2 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.4-.3Z"/></svg>
+              Trimite pe WhatsApp
+            </button>
+          </div>
+          <p class="order-privacy">Butonul deschide WhatsApp cu mesajul gata scris. Site-ul nu salvează nimic. <a href="confidentialitate.html">Politica de confidențialitate</a></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ GALERIE ============ -->
+    <section class="section" id="galerie">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Galerie</p>
+          <h2>Mici povești, tipărite cu drag</h2>
+          <div class="ornament" aria-hidden="true"><span></span>✦<span></span></div>
+        </header>
+        <div class="gallery">
+          <figure class="gallery__item">
+            <button class="gallery__btn" type="button" data-full="images/galerie-cuplu.svg">
+              <img src="images/galerie-cuplu.svg" alt="Figurină color cu un cuplu" width="400" height="500" loading="lazy">
+            </button>
+            <figcaption><strong>Cuplu</strong> · Figurina Color</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <button class="gallery__btn" type="button" data-full="images/galerie-familie.svg">
+              <img src="images/galerie-familie.svg" alt="Figurină color cu o familie cu un copil" width="400" height="500" loading="lazy">
+            </button>
+            <figcaption><strong>Familie</strong> · Figurina Color</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <button class="gallery__btn" type="button" data-full="images/galerie-kit.svg">
+              <img src="images/galerie-kit.svg" alt="Kit Atelier cu figurină albă, vopsele și pensulă" width="400" height="500" loading="lazy">
+            </button>
+            <figcaption><strong>Gata de pictat</strong> · Kit Atelier</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <button class="gallery__btn" type="button" data-full="images/galerie-bunici.svg">
+              <img src="images/galerie-bunici.svg" alt="Figurină color cu bunicii purtând căciuli de Moș Crăciun" width="400" height="500" loading="lazy">
+            </button>
+            <figcaption><strong>Bunicii de Crăciun</strong> · Figurina Color</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <button class="gallery__btn" type="button" data-full="images/galerie-catel.svg">
+              <img src="images/galerie-catel.svg" alt="Figurină color cu o fată și cățelul ei" width="400" height="500" loading="lazy">
+            </button>
+            <figcaption><strong>Cu prietenul blănos</strong> · Figurina Color</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <button class="gallery__btn" type="button" data-full="images/galerie-miri.svg">
+              <img src="images/galerie-miri.svg" alt="Figurină color cu mirele și mireasa" width="400" height="500" loading="lazy">
+            </button>
+            <figcaption><strong>Ziua cea mare</strong> · Figurina Color</figcaption>
+          </figure>
+        </div>
+        <p class="gallery__note">Imagini cu titlu ilustrativ.</p>
+      </div>
+    </section>
+
+    <!-- ============ CRACIUN ============ -->
+    <section class="xmas" id="craciun">
+      <div class="container">
+        <header class="section-head section-head--light">
+          <p class="eyebrow eyebrow--light">Idei de cadouri</p>
+          <h2>Ce pui anul acesta sub brad?</h2>
+          <p class="section-sub">Un cadou care nu se uită într-un sertar. Câteva idei pentru oamenii tăi dragi:</p>
+        </header>
+        <div class="gift-grid">
+          <div class="gift">
+            <span class="gift__icon" aria-hidden="true">♥</span>
+            <h3>Pentru el sau pentru ea</h3>
+            <p>Voi doi, într-o figurină din poza voastră preferată.</p>
+          </div>
+          <div class="gift">
+            <span class="gift__icon" aria-hidden="true">✦</span>
+            <h3>Pentru bunici</h3>
+            <p>Nepoții, în miniatură, pe raftul din sufragerie.</p>
+          </div>
+          <div class="gift">
+            <span class="gift__icon" aria-hidden="true">❄</span>
+            <h3>Pentru toată familia</h3>
+            <p>Un Kit Atelier de pictat împreună în vacanța de iarnă.</p>
+          </div>
+          <div class="gift">
+            <span class="gift__icon" aria-hidden="true">✿</span>
+            <h3>Pentru iubitorii de animale</h3>
+            <p>Cățelul sau pisica, alături de stăpân, pentru totdeauna.</p>
+          </div>
+        </div>
+        <div class="xmas__cta">
+          <a class="btn btn--gold js-render" href="https://wa.me/40740123849">Cere randarea 3D gratuită</a>
+          <p>Comenzile plasate până pe <strong data-config="christmasDeadline">8 decembrie</strong> ajung înainte de sărbători.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ INTREBARI ============ -->
+    <section class="section" id="intrebari">
+      <div class="container container--narrow">
+        <header class="section-head">
+          <p class="eyebrow">Întrebări frecvente</p>
+          <h2>Tot ce vrei să știi</h2>
+          <div class="ornament" aria-hidden="true"><span></span>✦<span></span></div>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>Ce fel de fotografie trebuie să trimit?</summary>
+            <p>O fotografie clară, cu lumină bună, în care fața se vede din față. Ideal ne trimiți și o poză întreagă, ca să vedem hainele și postura. Persoanele din figurină pot fi și din fotografii diferite.</p>
+          </details>
+          <details>
+            <summary>Randarea 3D chiar e gratuită?</summary>
+            <p>Da. Ne trimiți o poză pe WhatsApp și îți arătăm gratuit cum ar arăta figurina ta. Nu ești obligat să comanzi după aceea.</p>
+          </details>
+          <details>
+            <summary>Pot vedea figurina înainte să fie tipărită?</summary>
+            <p>Da. Îți trimitem pe WhatsApp modelul 3D și îl tipărim doar după ce îl aprobi. Până atunci putem face ajustări.</p>
+          </details>
+          <details>
+            <summary>În cât timp primesc figurina?</summary>
+            <p>În 7–10 zile de la aprobarea modelului 3D. Pentru Crăciun, comandă până pe <strong data-config="christmasDeadline">8 decembrie</strong>.</p>
+          </details>
+          <details>
+            <summary>Ce mărime are figurina?</summary>
+            <p>15 cm înălțime, de la bază până în vârful capului, în stil chibi: capul e mare și expresiv, așa că trăsăturile se văd bine. Vezi toate detaliile în <a href="#specificatii">Specificații tehnice</a>.</p>
+          </details>
+          <details>
+            <summary>Din ce material este figurina?</summary>
+            <p>Figurina din Kitul Atelier e tipărită în rășină gri rezistentă, șlefuită și grunduită, ca vopselele să se prindă ușor. Figurina Color e tipărită în PLA mat, un plastic din surse vegetale, colorat direct la tipărire.</p>
+          </details>
+          <details>
+            <summary>Ce conține Kitul Atelier?</summary>
+            <p>Figurina tipărită 3D într-o nuanță deschisă, gata de pictat, un set de vopsele acrilice, pensule fine și un ghid de pictură pas cu pas. Nu ai nevoie de experiență.</p>
+          </details>
+          <details>
+            <summary>Pot include mai multe persoane sau animalul de companie?</summary>
+            <p>Sigur! Prețul de bază este pentru o persoană. Fiecare persoană sau animăluț în plus costă <span data-extra="kit">50</span> lei la Kitul Atelier și <span data-extra="color">90</span> lei la Figurina Color.</p>
+          </details>
+          <details>
+            <summary>Cum plătesc și cât costă transportul?</summary>
+            <p>Detaliile de plată și costul transportului ți le comunicăm pe WhatsApp, la confirmarea comenzii, înainte să plătești ceva.</p>
+          </details>
+          <details>
+            <summary>Pot returna figurina?</summary>
+            <p>Figurinele sunt realizate personalizat, după fotografia ta, așa că nu pot fi returnate pentru simplul motiv că te-ai răzgândit. Dacă figurina ajunge deteriorată sau cu un defect, o refacem sau îți dăm banii înapoi. Detalii în <a href="termeni.html">Termeni și condiții</a>.</p>
+          </details>
+          <details>
+            <summary>Ce faceți cu fotografiile mele?</summary>
+            <p>Le folosim doar ca să realizăm figurina ta și le ștergem după finalizarea comenzii. Nu le publicăm fără acordul tău. Detalii în <a href="confidentialitate.html">Politica de confidențialitate</a>.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section--tint" id="contact">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Contact</p>
+          <h2>Hai să creăm împreună</h2>
+          <p class="section-sub">Ai o idee sau o întrebare? Vorbești direct cu Eliza.</p>
+        </header>
+        <div class="contact-grid">
+          <a class="contact-card js-wa" href="https://wa.me/40740123849">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg>
+            </span>
+            <span class="contact-card__label">WhatsApp</span>
+            <span class="contact-card__value">0740 123 849</span>
+          </a>
+          <a class="contact-card" href="tel:+40740123849">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11.4 11.4 0 0 0 3.6.6 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.4 11.4 0 0 0 .6 3.6 1 1 0 0 1-.3 1Z"/></svg>
+            </span>
+            <span class="contact-card__label">Telefon</span>
+            <span class="contact-card__value">0740 123 849</span>
+          </a>
+          <a class="contact-card" href="mailto:momente.tiparite@gmail.com">
+            <span class="contact-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2Zm0 2v.5l8 5 8-5V6Zm0 2.9V18h16V8.9l-8 5Z"/></svg>
+            </span>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">momente.tiparite@gmail.com</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand--light" href="index.html">
+          <img src="images/logo-mark.svg" alt="" width="42" height="42">
+          <span class="brand__text">
+            <span class="brand__name">Momente Tipărite</span>
+            <span class="brand__tag">Figurine 3D personalizate</span>
+          </span>
+        </a>
+        <p>Din fotografia ta, o amintire pe care o poți ține în palmă. Realizate cu drag, în România.</p>
+      </div>
+      <div>
+        <h3 class="footer-title">Navigare</h3>
+        <ul class="footer-links">
+          <li><a href="#cum-functioneaza">Cum funcționează</a></li>
+          <li><a href="#oferte">Oferte</a></li>
+          <li><a href="#galerie">Galerie</a></li>
+          <li><a href="#intrebari">Întrebări frecvente</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Informații legale</h3>
+        <ul class="footer-links">
+          <li><a href="termeni.html">Termeni și condiții</a></li>
+          <li><a href="confidentialitate.html">Politica de confidențialitate</a></li>
+          <li><a href="https://anpc.ro/" target="_blank" rel="noopener">ANPC</a></li>
+          <li><a href="https://anpc.ro/ce-este-sal/" target="_blank" rel="noopener">ANPC – Soluționarea alternativă a litigiilor (SAL)</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="footer-title">Contact</h3>
+        <ul class="footer-links">
+          <li><a class="js-wa" href="https://wa.me/40740123849">WhatsApp: 0740 123 849</a></li>
+          <li><a href="tel:+40740123849">Telefon: 0740 123 849</a></li>
+          <li><a href="mailto:momente.tiparite@gmail.com">momente.tiparite@gmail.com</a></li>
+        </ul>
       </div>
     </div>
-  </section>
+    <div class="container footer-bottom">
+      <p>© <span id="year">2026</span> Momente Tipărite. Toate drepturile rezervate.</p>
+      <!-- DE COMPLETAT dupa infiintarea firmei: denumire firma, CUI, Nr. Reg. Com., sediu -->
+    </div>
+  </footer>
 
-</main>
+  <dialog class="lightbox" id="lightbox" aria-label="Imagine mărită">
+    <button class="lightbox__close" type="button" aria-label="Închide">&times;</button>
+    <img src="" alt="">
+    <p class="lightbox__caption"></p>
+  </dialog>
 
-<footer class="footer">
-  <div class="container footer__inner">
-    <div class="logo logo--footer">Momente<span>Imprimate</span></div>
-    <p>Vaduva Mihai — CM CLASS PLUS SRL · Mioveni, jud. Argeș</p>
-    <p class="footer__year"></p>
-  </div>
-</footer>
-
-<a href="#" class="fab-whatsapp wa-link" target="_blank" rel="noopener" aria-label="Mesaj pe WhatsApp">
-  <svg viewBox="0 0 32 32" class="ico-wa" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.4.7 4.6 1.9 6.5L4 29l7.7-1.9c1.8 1 3.9 1.6 6.1 1.6 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-2 0-3.9-.5-5.5-1.5l-.4-.2-4.6 1.1 1.2-4.4-.3-.5C5.4 17.7 5 16.4 5 15c0-6 4.9-11 11-11s11 5 11 11-4.9 10.8-11 10.8zm5.9-8.2c-.3-.2-1.9-1-2.2-1.1-.3-.1-.5-.2-.7.1-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.6.1-.1.3-.4.5-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.2-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.6-.3z"/></svg>
-</a>
-
-<script src="js/script.js"></script>
+  <script src="js/main.js" defer></script>
 </body>
 </html>

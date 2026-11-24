@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Momente Tipărite">
+  <circle cx="32" cy="32" r="31" fill="#1F3D31"/>
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#B8924A" stroke-width="1.6"/>
+  <circle cx="32" cy="25" r="7.5" fill="#E9D9B4"/>
+  <path d="M18.5 47.5c1.6-8.8 7.4-13 13.5-13s11.9 4.2 13.5 13z" fill="#E9D9B4"/>
+  <path d="M47 13.5l1.3 3.6 3.6 1.3-3.6 1.3L47 23.3l-1.3-3.6-3.6-1.3 3.6-1.3z" fill="#D4B26A"/>
+</svg>

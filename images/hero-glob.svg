@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 620" role="img" aria-label="Glob de zăpadă cu figurina 3D a unui cuplu și un brad">
+  <defs>
+    <radialGradient id="glass" cx="36%" cy="28%" r="80%">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".96"/>
+      <stop offset=".55" stop-color="#EEF4F1" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#C6D8D1" stop-opacity=".85"/>
+    </radialGradient>
+    <linearGradient id="wood" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#24473A"/>
+      <stop offset="1" stop-color="#11261D"/>
+    </linearGradient>
+    <clipPath id="inside"><circle cx="260" cy="270" r="214"/></clipPath>
+    <path id="spark" d="M0-9 1.8-1.8 9 0 1.8 1.8 0 9-1.8 1.8-9 0-1.8-1.8Z"/>
+    <g id="body">
+      <rect x="-21" y="-76" width="19" height="72" rx="8" style="fill:var(--bottom)"/>
+      <rect x="2" y="-76" width="19" height="72" rx="8" style="fill:var(--bottom)"/>
+      <ellipse cx="-12" cy="-5" rx="13" ry="6" style="fill:var(--shoe)"/>
+      <ellipse cx="12" cy="-5" rx="13" ry="6" style="fill:var(--shoe)"/>
+      <g style="fill:var(--top)">
+        <rect x="-44" y="-140" width="16" height="66" rx="8" transform="rotate(10 -36 -140)"/>
+        <rect x="28" y="-140" width="16" height="66" rx="8" transform="rotate(-10 36 -140)"/>
+        <path d="M-32-68C-36-110-32-138-16-146H16C32-138 36-110 32-68Z"/>
+      </g>
+      <circle cx="-47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <circle cx="47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <rect x="-7" y="-160" width="14" height="18" rx="4" style="fill:var(--skin)"/>
+    </g>
+    <g id="dress">
+      <ellipse cx="-12" cy="-5" rx="11" ry="5" style="fill:var(--shoe)"/>
+      <ellipse cx="12" cy="-5" rx="11" ry="5" style="fill:var(--shoe)"/>
+      <g style="fill:var(--top)">
+        <rect x="-44" y="-140" width="16" height="66" rx="8" transform="rotate(10 -36 -140)"/>
+        <rect x="28" y="-140" width="16" height="66" rx="8" transform="rotate(-10 36 -140)"/>
+        <path d="M-16-146H16C30-140 33-112 28-92L46-10Q0 2-46-10L-28-92C-33-112-30-140-16-146Z"/>
+      </g>
+      <circle cx="-47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <circle cx="47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <rect x="-7" y="-160" width="14" height="18" rx="4" style="fill:var(--skin)"/>
+    </g>
+    <path id="hairBack" d="M-37-184C-38-214-16-224 2-223C22-222 39-210 37-184L39-136Q30-126 18-134L-18-134Q-30-126-39-136Z" style="fill:var(--hair)"/>
+    <g id="head">
+      <circle cx="0" cy="-184" r="32" style="fill:var(--skin)"/>
+      <circle cx="-11" cy="-182" r="3.2" fill="#2B211C"/>
+      <circle cx="11" cy="-182" r="3.2" fill="#2B211C"/>
+      <circle cx="-20" cy="-171" r="5.5" opacity=".5" fill="#E8998D"/>
+      <circle cx="20" cy="-171" r="5.5" opacity=".5" fill="#E8998D"/>
+      <path d="M-8-169Q0-162 8-169" fill="none" stroke="#2B211C" stroke-width="2.6" stroke-linecap="round"/>
+    </g>
+    <path id="hair" d="M-34-186C-36-212-16-222 2-221C22-220 37-206 34-186C30-197 20-203 8-204C2-196-12-194-22-197C-27-194-31-191-34-186Z" style="fill:var(--hair)"/>
+    <g id="scarf"><path d="M-18-150Q0-138 18-150L18-140Q0-128-18-140Z" fill="#B3263A"/><rect x="8" y="-142" width="9" height="30" rx="3" fill="#B3263A"/></g>
+    <g id="tree">
+      <rect x="-7" y="-22" width="14" height="22" fill="#6B4A32"/>
+      <path d="M0-150L40-84H20L50-44H22L56-20H-56L-22-44H-50L-20-84H-40Z" fill="#2F5A45"/>
+      <path d="M0-150L40-84H20L50-44H22L56-20H0Z" fill="#244A39"/>
+      <circle cx="-18" cy="-60" r="5" fill="#B3263A"/><circle cx="20" cy="-36" r="5" fill="#C9A24A"/><circle cx="8" cy="-96" r="4.5" fill="#C9A24A"/><circle cx="-26" cy="-30" r="4.5" fill="#E9D9B4"/><circle cx="30" cy="-70" r="4" fill="#B3263A"/>
+      <use href="#spark" y="-156" fill="#D4B26A" transform="scale(1.4)"/>
+    </g>
+  </defs>
+
+  <ellipse cx="260" cy="596" rx="196" ry="14" fill="#000" opacity=".14"/>
+
+  <circle cx="260" cy="270" r="220" fill="url(#glass)"/>
+  <g clip-path="url(#inside)">
+    <path d="M30 404Q150 372 262 384T500 392V520H30Z" fill="#FFFFFF"/>
+    <path d="M30 420Q160 400 280 410T500 412V520H30Z" fill="#F2F5F3"/>
+    <g transform="translate(398 404) scale(.95)"><use href="#tree"/></g>
+    <g transform="translate(112 396) scale(.6)"><use href="#tree"/></g>
+    <g transform="translate(222 412) scale(.84)" style="--skin:#F1C8A6;--hair:#4A2E20;--top:#2E4A6B;--bottom:#34343D;--shoe:#23232A">
+      <use href="#body"/><use href="#scarf"/><use href="#head"/><use href="#hair"/>
+    </g>
+    <g transform="translate(300 412) scale(.79)" style="--skin:#F5D2B5;--hair:#8A4B2A;--top:#9B2F3F;--bottom:#2E2E38;--shoe:#5A2028">
+      <use href="#dress"/><use href="#hairBack"/><use href="#head"/><use href="#hair"/>
+    </g>
+    <g fill="#FFFFFF">
+      <circle cx="120" cy="140" r="4"/><circle cx="180" cy="96" r="3"/><circle cx="330" cy="110" r="3.5"/><circle cx="400" cy="170" r="3"/><circle cx="90" cy="250" r="3.5"/><circle cx="160" cy="200" r="2.5"/><circle cx="430" cy="260" r="3.5"/><circle cx="360" cy="210" r="2.5"/><circle cx="250" cy="80" r="3"/><circle cx="210" cy="150" r="2"/><circle cx="300" cy="170" r="2"/><circle cx="140" cy="320" r="3"/><circle cx="66" cy="330" r="2.5"/><circle cx="450" cy="340" r="2.5"/>
+    </g>
+  </g>
+  <path d="M112 150A178 178 0 0 1 236 66" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".75"/>
+  <path d="M96 196A178 178 0 0 1 104 172" fill="none" stroke="#FFFFFF" stroke-width="11" stroke-linecap="round" opacity=".6"/>
+  <circle cx="260" cy="270" r="220" fill="none" stroke="#FFFFFF" stroke-width="3" opacity=".9"/>
+
+  <path d="M100 452L78 572Q260 606 442 572L420 452Z" fill="url(#wood)"/>
+  <ellipse cx="260" cy="452" rx="160" ry="24" fill="#2B5545"/>
+  <path d="M90 512Q260 542 430 512" fill="none" stroke="#B8924A" stroke-width="2.5"/>
+  <text x="260" y="560" text-anchor="middle" font-family="'Palatino Linotype', Palatino, 'Book Antiqua', Georgia, serif" font-size="19" letter-spacing="4" fill="#E9D9B4">MOMENTE TIPĂRITE</text>
+</svg>

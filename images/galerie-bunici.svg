@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Figurină color cu bunicii, cu căciuli de Moș Crăciun">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="38%" r="75%">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#EEE4D3"/>
+    </radialGradient>
+    <path id="spark" d="M0-9 1.8-1.8 9 0 1.8 1.8 0 9-1.8 1.8-9 0-1.8-1.8Z"/>
+    <g id="body">
+      <rect x="-21" y="-76" width="19" height="72" rx="8" style="fill:var(--bottom)"/>
+      <rect x="2" y="-76" width="19" height="72" rx="8" style="fill:var(--bottom)"/>
+      <ellipse cx="-12" cy="-5" rx="13" ry="6" style="fill:var(--shoe)"/>
+      <ellipse cx="12" cy="-5" rx="13" ry="6" style="fill:var(--shoe)"/>
+      <g style="fill:var(--top)">
+        <rect x="-44" y="-140" width="16" height="66" rx="8" transform="rotate(10 -36 -140)"/>
+        <rect x="28" y="-140" width="16" height="66" rx="8" transform="rotate(-10 36 -140)"/>
+        <path d="M-32-68C-36-110-32-138-16-146H16C32-138 36-110 32-68Z"/>
+      </g>
+      <circle cx="-47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <circle cx="47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <rect x="-7" y="-160" width="14" height="18" rx="4" style="fill:var(--skin)"/>
+    </g>
+    <g id="dress">
+      <ellipse cx="-12" cy="-5" rx="11" ry="5" style="fill:var(--shoe)"/>
+      <ellipse cx="12" cy="-5" rx="11" ry="5" style="fill:var(--shoe)"/>
+      <g style="fill:var(--top)">
+        <rect x="-44" y="-140" width="16" height="66" rx="8" transform="rotate(10 -36 -140)"/>
+        <rect x="28" y="-140" width="16" height="66" rx="8" transform="rotate(-10 36 -140)"/>
+        <path d="M-16-146H16C30-140 33-112 28-92L46-10Q0 2-46-10L-28-92C-33-112-30-140-16-146Z"/>
+      </g>
+      <circle cx="-47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <circle cx="47" cy="-75" r="8" style="fill:var(--skin)"/>
+      <rect x="-7" y="-160" width="14" height="18" rx="4" style="fill:var(--skin)"/>
+    </g>
+    <g id="head">
+      <circle cx="0" cy="-184" r="32" style="fill:var(--skin)"/>
+      <circle cx="-11" cy="-182" r="3.2" style="fill:var(--eye,#2B211C)"/>
+      <circle cx="11" cy="-182" r="3.2" style="fill:var(--eye,#2B211C)"/>
+      <circle cx="-20" cy="-171" r="5.5" opacity=".5" style="fill:var(--cheek,#E8998D)"/>
+      <circle cx="20" cy="-171" r="5.5" opacity=".5" style="fill:var(--cheek,#E8998D)"/>
+      <path d="M-8-169Q0-162 8-169" fill="none" stroke-width="2.6" stroke-linecap="round" style="stroke:var(--eye,#2B211C)"/>
+    </g>
+    <path id="sideHair" d="M-33-180C-36-168-34-160-28-156L-26-178ZM33-180C36-168 34-160 28-156L26-178Z" style="fill:var(--hair)"/>
+    <g id="glasses" fill="none" stroke="#5A4A3A" stroke-width="2">
+      <circle cx="-11" cy="-182" r="8"/><circle cx="11" cy="-182" r="8"/><path d="M-3-182H3"/>
+    </g>
+    <g id="santa">
+      <path d="M-30-204C-26-238 8-252 32-238L48-212L32-214C22-220 2-216-30-204Z" fill="#B3263A"/>
+      <rect x="-37" y="-212" width="74" height="15" rx="7.5" fill="#FFF8EE"/>
+      <circle cx="49" cy="-210" r="8.5" fill="#FFF8EE"/>
+    </g>
+  </defs>
+
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <g fill="#B8924A">
+    <use href="#spark" x="62" y="80" opacity=".55"/>
+    <use href="#spark" x="340" y="92" opacity=".45"/>
+    <use href="#spark" x="200" y="130" opacity=".35"/>
+    <use href="#spark" x="44" y="250" opacity=".3"/>
+    <use href="#spark" x="360" y="250" opacity=".3"/>
+  </g>
+  <g fill="#FFFFFF" opacity=".9">
+    <circle cx="90" cy="150" r="3"/><circle cx="310" cy="170" r="2.5"/><circle cx="140" cy="60" r="2"/><circle cx="270" cy="50" r="3"/><circle cx="350" cy="320" r="2.5"/><circle cx="50" cy="340" r="2"/>
+  </g>
+
+  <path d="M60 420v28a140 22 0 0 0 280 0v-28z" fill="#163026"/>
+  <path d="M60 432a140 22 0 0 0 280 0" fill="none" stroke="#B8924A" stroke-width="2"/>
+  <ellipse cx="200" cy="420" rx="140" ry="22" fill="#24473A"/>
+
+  <g transform="translate(148 424) scale(1.16)" style="--skin:#EDC3A0;--hair:#D9D6D0;--top:#2F5A45;--bottom:#4A4A52;--shoe:#2A2A30">
+    <use href="#body"/><use href="#head"/><use href="#sideHair"/><use href="#glasses"/><use href="#santa"/>
+  </g>
+  <g transform="translate(256 424) scale(1.1)" style="--skin:#F4D0B2;--hair:#E3E0DA;--top:#9B2F3F;--bottom:#2E2E38;--shoe:#5A2028">
+    <use href="#dress"/><use href="#head"/><use href="#sideHair"/><use href="#glasses"/><use href="#santa"/>
+  </g>
+</svg>
